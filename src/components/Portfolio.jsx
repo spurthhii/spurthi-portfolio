@@ -53,7 +53,7 @@ export default function Portfolio() {
 
   {/* RIGHT IMAGE */}
   <div className="hero-photo">
-    <img src="/profile.jpeg" alt="Spurthi" />
+   <img src="/profile.jpeg" alt="Spurthi" />
   </div>
 </section>
 
@@ -167,4 +167,5 @@ export default function Portfolio() {
       </footer>
     </div>
   );
+
 }
