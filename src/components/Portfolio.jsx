@@ -1,4 +1,5 @@
 import React from "react";
+import profilePic from "../assets/profile.jpeg";
 
 export default function Portfolio() {
   return (
@@ -53,7 +54,7 @@ export default function Portfolio() {
 
   {/* RIGHT IMAGE */}
   <div className="hero-photo">
-   <img src="/profile.jpeg" alt="Spurthi" />
+   <img src={profilePic} alt="Spurthi" />
   </div>
 </section>
 
@@ -169,3 +170,4 @@ export default function Portfolio() {
   );
 
 }
+
